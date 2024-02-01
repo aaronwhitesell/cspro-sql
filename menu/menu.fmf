@@ -1,0 +1,61 @@
+﻿[FormFile]
+Version=CSPro 8.0
+Name=MENU_FF
+Label=menu
+DefaultTextFont=-013 0000 0000 0000 0700 0000 0000 0000 0000 0000 0000 0000 0000 Arial
+FieldEntryFont=0018 0000 0000 0000 0600 0000 0000 0000 0000 0000 0000 0000 0000 Courier New
+Type=SystemControlled
+  
+[Dictionaries]
+File=.\menu.dcf
+  
+[Form]
+Name=FORM001
+Label=menu Record
+QuestionTextHeight=117
+Level=1
+Size=2237,300
+  
+Item=M_MENU
+Item=M_SPEED_COMPARISON
+  
+[EndForm]
+  
+[Level]
+Name=MENU_LEVEL
+Label=menu Level
+  
+[Group]
+Required=Yes
+Name=MENU_REC_FORM
+Label=menu Record
+Form=1
+Max=1
+  
+[Field]
+Name=M_MENU
+Position=230,27,245,47
+Item=M_MENU,MENU_DICT
+FieldLabelType=DictionaryLabel
+DataCaptureType=RadioButton
+Form=1
+  
+[Text]
+Position=50,30,85,46
+Text=Menu
+ 
+  
+[Field]
+Name=M_SPEED_COMPARISON
+Position=230,57,245,77
+Item=M_SPEED_COMPARISON,MENU_DICT
+FieldLabelType=DictionaryLabel
+DataCaptureType=RadioButton
+Form=1
+  
+[Text]
+Position=50,60,169,76
+Text=Speed comparison
+ 
+[EndGroup]
+  

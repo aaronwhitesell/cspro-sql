@@ -1,0 +1,42 @@
+{
+  "software": "CSPro", 
+  "version": 8.0, 
+  "fileType": "excelConverter", 
+  "excel": "frame.xlsx", 
+  "dictionary": "../dictionaries/frame.dcf", 
+  "output": "..\\data\\frame.csdb", 
+  "startingRow": 2, 
+  "caseManagement": "modifyAddCases", 
+  "runOnlyIfNewer": false, 
+  "records": [
+    {
+      "name": "FRAME_REC", 
+      "worksheet": {
+        "name": "Test Data", 
+        "index": 1
+      }, 
+      "items": [
+        {
+          "name": "F_PROVINCE", 
+          "column": 1
+        }, 
+        {
+          "name": "F_DISTRICT", 
+          "column": 2
+        }, 
+        {
+          "name": "F_EA", 
+          "column": 3
+        }, 
+        {
+          "name": "F_STRUCTURE", 
+          "column": 4
+        }, 
+        {
+          "name": "F_RESPONDENT", 
+          "column": 5
+        }
+      ]
+    }
+  ]
+}

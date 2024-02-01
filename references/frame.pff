@@ -1,0 +1,6 @@
+﻿[Run Information]
+Version=CSPro 8.0
+AppType=Excel2CSPro
+
+[Files]
+Application=.\frame.xl2cs

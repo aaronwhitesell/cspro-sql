@@ -1,0 +1,73 @@
+{
+  "software": "CSPro", 
+  "version": 8.0, 
+  "fileType": "application", 
+  "type": "entry", 
+  "name": "MENU", 
+  "label": "menu", 
+  "dictionaries": [
+    {
+      "type": "input", 
+      "path": "menu.dcf", 
+      "parent": "menu.fmf"
+    }, 
+    {
+      "type": "external", 
+      "path": "../dictionaries/frame.dcf"
+    }
+  ], 
+  "forms": [
+    "menu.fmf"
+  ], 
+  "questionText": [
+    "menu.ent.qsf"
+  ], 
+  "code": [
+    {
+      "type": "main", 
+      "path": "menu.ent.apc"
+    }
+  ], 
+  "messages": [
+    "menu.ent.mgf"
+  ], 
+  "logicSettings": {
+    "version": 2.0, 
+    "caseSensitive": {
+      "symbols": false
+    }, 
+    "actionInvoker": {
+      "accessFromExternalCaller": "promptIfNoValidAccessToken", 
+      "convertResultsForLogic": true
+    }
+  }, 
+  "properties": {
+    "askOperatorId": false, 
+    "autoAdvanceOnSelection": true, 
+    "caseTree": "off", 
+    "centerForms": false, 
+    "createListing": false, 
+    "createLog": false, 
+    "decimalMark": "dot", 
+    "displayCodesAlongsideLabels": false, 
+    "notes": {
+      "delete": "all", 
+      "edit": "all"
+    }, 
+    "partialSave": {
+      "operatorEnabled": false
+    }, 
+    "showEndCaseMessage": true, 
+    "showOnlyDiscreteValuesInComboBoxes": true, 
+    "showFieldLabels": true, 
+    "showErrorMessageNumbers": false, 
+    "showQuestionText": true, 
+    "showRefusals": true, 
+    "verify": {
+      "frequency": 1, 
+      "start": 1
+    }, 
+    "htmlDialogs": true, 
+    "useHtmlComponentsInsteadOfNativeVersions": false
+  }
+}

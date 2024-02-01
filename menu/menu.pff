@@ -1,0 +1,15 @@
+﻿[Run Information]
+Version=CSPro 8.0
+AppType=Entry
+
+[DataEntryInit]
+StartMode=Add
+Lock=CaseListing
+FullScreen=Yes
+
+[Files]
+Application=.\menu.ent
+InputData=|type=None
+
+[ExternalFiles]
+PSC_FRAME_DICT=..\data\frame.csdb

@@ -1,0 +1,34 @@
+﻿---
+fileType: Question Text
+version: CSPro 8.0
+languages:
+  - name: EN
+    label: English
+styles:
+  - name: Normal
+    className: normal
+    css: |
+      font-family: Arial;font-size: 16px;
+  - name: Instruction
+    className: instruction
+    css: |
+      font-family: Arial;font-size: 14px;color: #0000FF;
+  - name: Heading 1
+    className: heading1
+    css: |
+      font-family: Arial;font-size: 36px;
+  - name: Heading 2
+    className: heading2
+    css: |
+      font-family: Arial;font-size: 24px;
+  - name: Heading 3
+    className: heading3
+    css: |
+      font-family: Arial;font-size: 18px;
+questions:
+  - name: MENU_DICT.M_SPEED_COMPARISON
+    conditions:
+      - questionText:
+          EN: |
+            <p>Results of running each one 1 million cases:</p><ul><li>SQL query finished in less than a second</li><li>Forcase with startswith finished in less than a second</li><li>Forcase with where clause finished in 155 seconds</li></ul><p></p><p></p><p></p>
+...
